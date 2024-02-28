@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "django_migralign"
+version = "1.0.0"
+description = "Ensure your migrations are linear across environments."
+readme = "README.md"
+keywords = [
+  "Django",
+]
+license = {text = "MIT"}
+authors = [{name = "Amr Elsayed", email = "elsayed.amr50@gmail.com"}]
+requires-python = ">=2.7"
+
+[project.urls]
+Repository = "https://github.com/AmrElsayedEG/django_migralign"
