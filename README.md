@@ -23,7 +23,7 @@ Installation
 
 
 
-    python -m pip install django_migralign
+    pip install django-migralign
 
 **Second,** add the app to your ``INSTALLED_APPS`` setting:
 
