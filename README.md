@@ -1,4 +1,4 @@
-========================
+
 django_migralign
 ========================
 
@@ -21,13 +21,13 @@ Installation
 
 **First,** install with pip:
 
-.. code-block:: bash
+
 
     python -m pip install django_migralign
 
 **Second,** add the app to your ``INSTALLED_APPS`` setting:
 
-.. code-block:: python
+
 
     INSTALLED_APPS = [
         ...,
@@ -37,7 +37,7 @@ Installation
 
 The package is a middle command that should run between ``makemigrations`` and ``migrate``, the package expects a variable in your settings file called **INSTALLED_PROJECT_APPS**, That variable should have all your apps that contain migration files.
 
-.. code-block:: python
+
 
     # project/settings/base.py
     INSTALLED_PROJECT_APPS = ['first_app', 'second_app', ...]
